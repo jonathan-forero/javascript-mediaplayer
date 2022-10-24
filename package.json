@@ -4,13 +4,15 @@
   "description": "",
   "main": "lib/MediaPlayer.js",
   "scripts": {
-    "start": "live-server"
+    "start": "live-server",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "gh-pages": "^4.0.0"
   }
 }
